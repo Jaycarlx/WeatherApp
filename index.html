@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <header>
+        <i class='bx bx-left-arrow-alt'></i>Weather App
+    </header>
+    <section class="add-input">
+        <p class="info-text"></p>
+        <p class="search">Search for any city</p>
+        <input type="text" placeholder="Enter City Name" spellcheck="false">
+        <div class="seperator"></div>
+        <button>Get My Current Location</button>
+    </section>
+    <section class="weather-info">
+        <img src="./icons/clear.svg" alt="weather icon">
+        <div class="temp">
+            <span class="num">-</span>
+            <span class="symbol">&#176</span>
+            <span class="deg">C</span>
+        </div>
+        <div class="wDescription">-</div>
+        <div class="location">
+            <i class="bx bx-map"></i>
+            <span>-,-</span>
+        </div>
+        <div class="date">_, _</div>
+        <div class="bottom">
+            <div class="columns feels">
+                <i class="bx bxs-thermometer"></i>
+                <div class="details">
+                    <div class="temp">
+                        <span class="num-2">-</span>
+                        <span class="symbol">&#176</span>
+                        <span class="deg">C</span>
+                    </div>
+                    <p>Feels like</p>
+                </div>
+            </div>
+            <div class="columns humidity">
+                <i class="bx bxs-droplet-half"></i>
+                <div class="details">
+                        <span class="num">-</span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   </div>
+   <div class="copyright">
+    <p><i class="bx bxl-github"></i> <a href="https://github.com/Jaycarlx/">Jaycarlx</a></p>
+   </div>
+   <script src="index.js"></script>
+</body>
+</html>
